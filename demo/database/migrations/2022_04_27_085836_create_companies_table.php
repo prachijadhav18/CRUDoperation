@@ -18,9 +18,9 @@ return new class extends Migration
             $table->string('name');
             $table->string('email');
             $table->string('password');
-            $table->string('gender');
+            $table->enum('gender', ['male', 'female']);
             $table->string('designation');
-            $table->string('photo');
+            $table->text('photo');
             $table->timestamps();
         });
     }
