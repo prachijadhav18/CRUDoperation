@@ -27,8 +27,8 @@
         </div>
         <div class="form-group">
             <label for="pwd">Gender:</label>
-            <input type="radio" id="gender" name="gender" value="Male">Male
-            <input type="radio" id="gender" name="gender" value="Female">Female
+            <input type="radio" id="gender" name="gender" value="male">Male
+            <input type="radio" id="gender" name="gender" value="female">Female
         </div>
 
         <div class="form-group">
