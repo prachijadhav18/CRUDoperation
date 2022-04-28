@@ -51,7 +51,7 @@ class CompanyController extends Controller
     {
         $request->validate([
             'name' => 'required|max:191',
-            'email' => 'required|email',
+            'email' => 'required|email|unique:companies,email,'.$request->id,
             'password' => 'required',
             'designation' => 'nullable',
             'gender' => 'nullable'
