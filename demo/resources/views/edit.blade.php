@@ -28,8 +28,8 @@
         </div>
         <div class="form-group">
             <label for="pwd">Gender:</label>
-            <input type="radio" id="gender" name="gender" value="Male"  {{ $company->gender == "Male" ? 'checked' : '' }}>Male
-            <input type="radio" id="gender" name="gender" value="Female"  {{ $company->gender == "Female" ? 'checked' : '' }}>Female
+            <input type="radio" id="gender" name="gender" value="Male"  {{ $company->gender == "male" ? 'checked' : '' }}>Male
+            <input type="radio" id="gender" name="gender" value="Female"  {{ $company->gender == "female" ? 'checked' : '' }}>Female
         </div>
 
         <div class="form-group">
